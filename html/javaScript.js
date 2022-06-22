@@ -161,3 +161,21 @@ function cliquea()
 
 
 
+// $(function(){
+//     var p = $('.price-cash');
+//     var c = p.children();
+//     p.text('NUEVO PRECIO: ');
+//     p.append(c);
+//   });
+
+
+
+function regresar_Correo()
+{
+    window.location.href = "Marquesina.html";
+}
+
+function regresar_Projects()
+{
+    window.location.href = "Marquesina.html";
+}

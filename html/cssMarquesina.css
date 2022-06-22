@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;700&display=swap');
+
 body{
     /*background-color: rgb(105, 187, 57);*/
     /* background-image: url(FELPILGAMESSTUDIO1.png); */
@@ -24,13 +26,15 @@ body{
     border-radius: 10px;
 
     text-align: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    text-shadow: 7px 7px 7px;
 
 }
 
 #titulo2{
     font-size:6em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Urbanist';
     text-align:center;
     text-shadow: 7px 5px 7px;
     color:white;
@@ -98,6 +102,11 @@ body{
     text-align: center;
     font-family: monospace;
     text-shadow: 7px 7px 7px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius:10px;
+    font-size: 12px;
+    
 }
 
 #num1{
@@ -112,6 +121,34 @@ body{
     text-align: center;
     border-radius:10px
 
+}
+
+#botonOperacion1
+{
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(42, 37, 37);
+}
+
+#botonOperacion2
+{
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(98, 57, 9);
+}
+
+#botonOperacion3
+{
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(11, 44, 105);
+}
+
+#botonOperacion4
+{
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(18, 71, 13);
 }
 
 /*
@@ -195,23 +232,32 @@ body{
 }
 
 #contenedorVideo1{
+
     background-color: aqua;
     border-radius: 10px;
+    orientation: horizontal
+
 }
 
 #contenedorVideo2{
 
     background-color: yellow;
     border-radius:10px;
+    margin-left: 50%;
+    margin-right:0%;
+    orientation: horizontal;
 
 }
 
-#contenedorVideo3{
+#VideoF{
 
-    background-color: green;
-    border-radius:10px;
+
+    margin-left: 20%;
+    border-radius:30px;
 
 }
+
+
 
 #github{
 
@@ -242,3 +288,134 @@ body{
 
 }
 
+
+
+.padre{
+
+    height:50px;
+    background:red;
+    overflow-y:hidden;
+    overflow-x:auto;
+    width: auto;
+    padding:10px;
+    white-space:nowrap;
+
+}
+
+#hijo{
+
+    width:5%;
+    height:10px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+/* CORREO */
+
+#correoTitle
+{
+
+    font-family: Times, "Times New Roman";
+    color: white
+    
+}
+
+.contenedorCorreo
+{
+    text-align: center;
+    
+    
+}
+
+#descript
+{
+
+    color: white
+    
+    
+    
+}
+
+#textFinal
+{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size:2em;
+
+}
+
+#button_Regresar_Correo
+{
+    border-radius: 10px;
+    padding: 10px 7px;
+    color: #fff;
+    background-color: #333;
+    margin: 5px;
+}
+
+
+/* PROYECTOS_REALIZADOS */
+
+.ContainerTitle 
+{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#Title_Proyects
+{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color:white;
+    border-radius: 10px;
+}
+
+.containerApps
+{
+    background-color:orange;
+    text-align: center;
+}
+
+#tituloSoft
+{
+    font-size: 50px;
+    font-family:monospace;
+}
+
+#Apps
+{
+    border-radius:50px;
+}
+
+.clearfix
+{
+    float: left;
+}
+
+.containerGames
+{
+
+    background-color:rgb(6, 255, 27);    
+    text-align: center;
+
+}
+
+
+#Juegos
+{
+    border-radius:50px;
+    
+}
+
+#textoSoft
+{
+
+    font-size:2em;
+    font-family: monospace;
+    text-shadow: 7px 7px 7px;
+
+}
